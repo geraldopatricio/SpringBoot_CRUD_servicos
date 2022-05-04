@@ -42,28 +42,25 @@ na aba Project>Properties> Java Build Path>Libraries
 Na lista deve aparecer Junit5, se não estiver preciona add library...
 Junit, next , depois escolhe na lista junit5 e finish
 ```
+  
+## Teste
+<img src="./docs/images/test.png" alt="testeUnit5" /> 
 
 ## Collection
 o Json para uso no postman encontra-se na pasta docs/json
   
-> ## Para acesso à URL Swagger
-> http://localhost:8080/swagger-ui.html
+## Postman
+<img src="./docs/images/postman.jpg" alt="Json" /> 
     
 ## Banco de Dados
 script.sql encontra-se na pasta docs/banco
-<img src="./docs/images/banco.jpg" alt="BancoPostgre" /> 
+<img src="./docs/images/banco.jpg" alt="BancoPostgre" />   
   
-## Arquivo JSON parar usar no Postman
-o Json encontra-se em docs/json
-<img src="./docs/images/postman.jpg" alt="Json" /> 
-
-## Teste
-<img src="./docs/images/test.png" alt="testeUnit5" /> 
-
+> ## Para acesso à URL Swagger
+> http://localhost:8080/swagger-ui.html
+  
 ## Suporte
-
 geraldo@gpsoft.com.br
 
 ## Sobre
-
 [Geraldo P Melo](https://gpsoft.com.br)
