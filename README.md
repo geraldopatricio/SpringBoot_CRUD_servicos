@@ -1,4 +1,4 @@
-<p align="center">Projeto de uma Rest Api CRUD com PostgreSQL</p>
+<p align="center">Projeto de uma Rest Api - Um CRUD com Bacon de Dados PostgreSQL</p>
 
 <p align="center">
 
