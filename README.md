@@ -54,15 +54,12 @@ swagger.json << Arquivo encontra-se na Raiz
 <img src="./assets/images/swagger.jpg" alt="Swagger" /> 
   
 ## Banco de Dados
-servicos.sql encontra-se na pasta database
+script.sql encontra-se na pasta assets/banco
 <img src="./assets/images/banco.jpg" alt="BancoPostgre" /> 
   
 ## Arquivo JSON parar usar no Insomnia ou Postman
-o Json encontra-se na raiz no projeto
+servicos.postman_collection.json encontra-se em assets/json
 <img src="./assets/images/postman.jpg" alt="Json" /> 
-
-## Video Demo
-<a href="https://youtu.be/HUl-Nuvemcw" target="_blank">Clique Aqui</a>
 
 ## Teste
 <img src="./assets/images/test.png" alt="testeUnit5" /> 
