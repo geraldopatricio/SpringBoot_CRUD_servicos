@@ -63,4 +63,4 @@ script.sql encontra-se na pasta docs/banco
 geraldo@gpsoft.com.br
 
 ## Sobre
-[Geraldo P Melo](https://gpsoft.com.br)
+[Nossa Empresa](https://gpsoft.com.br)
