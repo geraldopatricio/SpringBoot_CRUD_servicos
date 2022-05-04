@@ -48,10 +48,7 @@ o Json para uso no postman encontra-se na pasta docs/json
   
 > ## Para acesso à URL Swagger
 > http://localhost:8080/swagger-ui.html
-  
-> ## Swagger
-> <img src="./docs/images/swagger.jpg" alt="Swagger" /> 
-  
+    
 ## Banco de Dados
 script.sql encontra-se na pasta docs/banco
 <img src="./docs/images/banco.jpg" alt="BancoPostgre" /> 
