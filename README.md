@@ -6,7 +6,7 @@
 <img src="./docs/images/technology.png" alt="Tecnologias usadas" /> 
   
 ## Objetivo
-Rest API Crud Application With Postgre.
+CRUD Rest API BackEnd em Spring Boot para consumir 3 tabelas em uma base de dados PostgreSql
 
 ## Banco de Dados 
 Crie um banco de nome Servicos e...
