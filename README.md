@@ -3,7 +3,7 @@
 <p align="center">
 
 ## Technologias usadas neste projeto
-<img src="./assets/images/technology.png" alt="Tecnologias usadas" /> 
+<img src="./docs/images/technology.png" alt="Tecnologias usadas" /> 
   
 ## Objetivo
 Rest API Crud Application With Postgre.
