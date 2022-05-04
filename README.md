@@ -13,7 +13,7 @@ Crie um banco de nome Servicos e...
 
 ```bash
 src/main/resources/application-prod.properties
-Utilizado postgresql
+Utilizado postgresql altere login/senha de acordo com o seu servidor
 
 Após criação do banco trocar para update
 de spring.jpa.hibernate.ddl-auto=create
@@ -44,7 +44,7 @@ Junit, next , depois escolhe na lista junit5 e finish
 ```
 
 ## Collection
-o Json para uso no postman encontra-se na raiz do projeto
+o Json para uso no postman encontra-se na pasta assets/json
   
 ## Para acesso à URL Swagger
 http://localhost:8080/swagger-ui.html
@@ -65,7 +65,7 @@ o Json encontra-se na raiz no projeto
 <a href="https://youtu.be/HUl-Nuvemcw" target="_blank">Clique Aqui</a>
 
 ## Teste
-<img src="./assets/images/test.jpg" alt="testeUnit5" /> 
+<img src="./assets/images/test.png" alt="testeUnit5" /> 
 
 ## Suporte
 
