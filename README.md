@@ -1,4 +1,4 @@
-<p align="center">Projeto de uma Rest Api CRUD com PostgreSQL</p>
+<p align="center">Projeto de uma Rest Api CRUD usando Banco PostgreSQL</p>
 
 <p align="center">
 
@@ -44,25 +44,21 @@ Junit, next , depois escolhe na lista junit5 e finish
 ```
 
 ## Collection
-o Json para uso no postman encontra-se na pasta assets/json
+o Json para uso no postman encontra-se na pasta docs/json
   
-## Para acesso à URL Swagger
-http://localhost:8080/swagger-ui.html
+> ## Para acesso à URL Swagger
+> http://localhost:8080/swagger-ui.html
   
-## Swagger
-swagger.json << Arquivo encontra-se na Raiz
-<img src="./docs/images/swagger.jpg" alt="Swagger" /> 
+> ## Swagger
+> <img src="./docs/images/swagger.jpg" alt="Swagger" /> 
   
 ## Banco de Dados
-servicos.sql encontra-se na pasta database
+script.sql encontra-se na pasta docs/banco
 <img src="./docs/images/banco.jpg" alt="BancoPostgre" /> 
   
-## Arquivo JSON parar usar no Insomnia ou Postman
-o Json encontra-se na raiz no projeto
+## Arquivo JSON parar usar no Postman
+o Json encontra-se em docs/json
 <img src="./docs/images/postman.jpg" alt="Json" /> 
-
-## Video Demo
-<a href="https://youtu.be/HUl-Nuvemcw" target="_blank">Clique Aqui</a>
 
 ## Teste
 <img src="./docs/images/test.png" alt="testeUnit5" /> 
