@@ -1,0 +1,605 @@
+{
+	"info": {
+		"_postman_id": "497c296b-0632-4a5a-a30e-9e7575838498",
+		"name": "servicos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "propriedadeinsert*",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"Agrotis2\",\r\n    \"cnpj\": \"29104080000107\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Propriedades/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Propriedades",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "propriedadeupdate",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"Agrotis\",\r\n    \"cnpj\": \"29104080000107\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Propriedades/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Propriedades",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "propriedadepages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Propriedades/page",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Propriedades",
+						"page"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "propriedadeinsert2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"Vai ser deletada\",\r\n    \"cnpj\": \"85436846000121\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Propriedades/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Propriedades",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "propriedadedelete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"Vai ser deletada\",\r\n    \"cnpj\": \"85436846000121\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Propriedades/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Propriedades",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "propriedadefindall",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Propriedades/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Propriedades",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "propriedadefindbyid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Propriedades/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Propriedades",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "laboratorioinsert*",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"agrosky1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Laboratorios/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Laboratorios",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "laboratorioupdate",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"agrosky\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Laboratorios/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Laboratorios",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "laboratoriopages",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"agrosky1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Laboratorios/page",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Laboratorios",
+						"page"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "laboratorioinsert2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"vai ser deletado\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Laboratorios/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Laboratorios",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "laboratoriodelete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"agrosky1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Laboratorios/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Laboratorios",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "laboratoriofindall",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"agrosky1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Laboratorios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Laboratorios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "laboratoriofindbyid",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"agrosky1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Laboratorios/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Laboratorios",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "servicosinsert*",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"paciente1\",\r\n    \"dataInicial\":\"01/04/2022 12:50:00\",\r\n    \"dataFinal\":\"02/04/2022 12:50:00\",\r\n    \"infosPropriedade\":\r\n    {\r\n        \"id\": 1,\r\n        \"nome\": \"Agrotis\",\r\n        \"cnpj\": \"29104080000107\"\r\n    },\r\n    \"laboratorio\":{\r\n        \"id\": 1,\r\n        \"nome\": \"agrosky\"\r\n    },\r\n    \"observacoes\":\"em branco\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Servicos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Servicos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "servicosupdate",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"paciente\",\r\n    \"dataInicial\":\"02/04/2022 12:50:00\",\r\n    \"dataFinal\":\"03/04/2022 12:50:00\",\r\n    \"propriedadeId\":1,\r\n    \"laboratorioId\":1,\r\n    \"observacoes\":\"nova observacao\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Servicos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Servicos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "servicospages",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"paciente1\",\r\n    \"dataInicial\":\"01/04/2022 12:50:00\",\r\n    \"dataFinal\":\"02/04/2022 12:50:00\",\r\n    \"propriedadeId\":1,\r\n    \"laboratorioId\":1,\r\n    \"observacoes\":\"em branco\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Servicos/page",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Servicos",
+						"page"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "servicosinsert2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"vai ser deletado\",\r\n    \"dataInicial\":\"01/04/2022 12:50:00\",\r\n    \"dataFinal\":\"02/04/2022 12:50:00\",\r\n    \"propriedadeId\":1,\r\n    \"laboratorioId\":1,\r\n    \"observacoes\":\"em branco\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Servicos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Servicos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "servicosdelete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"vai ser deletado\",\r\n    \"dataInicial\":\"01/04/2022 12:50:00\",\r\n    \"dataFinal\":\"02/04/2022 12:50:00\",\r\n    \"propriedadeId\":1,\r\n    \"laboratorioId\":1,\r\n    \"observacoes\":\"em branco\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Servicos/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Servicos",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "servicosfindall",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"paciente1\",\r\n    \"dataInicial\":\"01/04/2022 12:50:00\",\r\n    \"dataFinal\":\"02/04/2022 12:50:00\",\r\n    \"propriedadeId\":1,\r\n    \"laboratorioId\":1,\r\n    \"observacoes\":\"em branco\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Servicos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Servicos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "servicosfindid",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\":\"paciente1\",\r\n    \"dataInicial\":\"01/04/2022 12:50:00\",\r\n    \"dataFinal\":\"02/04/2022 12:50:00\",\r\n    \"propriedadeId\":1,\r\n    \"laboratorioId\":1,\r\n    \"observacoes\":\"em branco\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Servicos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Servicos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
