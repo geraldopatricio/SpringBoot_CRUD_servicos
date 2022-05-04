@@ -1,5 +1,5 @@
 <p align="center">
-## Projeto de uma Rest Api - Um CRUD com Banco de Dados PostgreSQL
+Projeto de uma Rest Api - Um CRUD com Banco de Dados PostgreSQL
 </p>
 
 <p align="center">
