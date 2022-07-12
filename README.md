@@ -2,7 +2,7 @@
 
 <p align="center">
 
-## Technologias usadas neste projeto
+## Tecnologias usadas neste projeto
 <img src="./docs/images/technology.png" alt="Tecnologias usadas" /> 
   
 ## Objetivo
