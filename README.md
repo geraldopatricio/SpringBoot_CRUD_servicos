@@ -60,7 +60,8 @@ script.sql encontra-se na pasta docs/banco
 > http://localhost:8080/swagger-ui.html
   
 ## Suporte
-geraldo@gpsoft.com.br
+EMail: geraldo@gpsoft.com.br
+WhatsApp: (85) 9 9731-9843
 
 ## Sobre
 [Nossa Empresa](https://gpsoft.com.br)
