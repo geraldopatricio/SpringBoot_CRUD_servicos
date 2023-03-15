@@ -61,7 +61,7 @@ script.sql encontra-se na pasta docs/banco
   
 ## Suporte
 EMail: geraldo@gpsoft.com.br
-WhatsApp: (85) 9 9731-9843
+WhatsApp: (85) 9 9150-8104
 
 ## Sobre
 [Nossa Empresa](https://gpsoft.com.br)
